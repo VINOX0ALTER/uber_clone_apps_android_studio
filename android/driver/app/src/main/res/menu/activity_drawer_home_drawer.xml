@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:title="@string/nav_home" />
+        <item
+            android:id="@+id/nav_history"
+            android:title="@string/nav_history" />
+        <item
+            android:id="@+id/nav_car_type"
+            android:title="UPDATE VEHICLE TYPE" />
+        <item
+            android:id="@+id/nav_change_pwd"
+            android:title="CHANGE PASSWORD" />
+        <item
+            android:id="@+id/nav_update_info"
+            android:title="UPDATE INFORMATION" />
+        <item
+            android:id="@+id/nav_sign_out"
+            android:title="SIGN OUT" />
+    </group>
+
+
+</menu>
